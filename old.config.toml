@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = '机器爱学习的论文笔记'
+theme = ['hugo-PaperMod-master']
+draft="false"
