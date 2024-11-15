@@ -9,7 +9,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 
-# googleAnalytics: UA-123-45
+# googleAnalytics: 
 
 minify:
   disableXML: true
@@ -114,18 +114,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 10
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
       weight: 20
-    # - identifier: about_me
-    #   name: About Me
-    #   url: /about/
-    #   weight: 20
+    - identifier: about_me
+      name: About Me
+      url: /about/
+      weight: 20
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
